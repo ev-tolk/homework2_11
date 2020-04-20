@@ -1,0 +1,132 @@
+#menu{
+    background-color: #cabdd9;
+}
+
+#menu button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgba(153, 39, 170, 0.5);
+    color: cornsilk;
+}
+
+#bank, #log_in, #calculater{
+    background-image: url('./img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#bank h1, #calculater h1, #convert h1, #bank p{
+    padding-top: 50px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    color: rgba(0, 87, 66, 1);
+}
+
+#bank p{
+    color: whitesmoke;
+}
+
+#bank form{
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: rgba(0, 87, 66, 0.48);
+    padding-bottom: 50px;
+}
+
+#bank table .eur_usd{
+    margin-top: 38px;
+}
+
+#bank table .rub sup{
+    font-size: 20px;
+}
+
+#bank button{
+    margin-left: 42%;
+    margin-top: 25px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgba(153, 39, 170, 0.5);
+    color: cornsilk;
+}
+
+#convert{
+    background-color: rgba(130, 207, 227, 1);
+    height: 100vh;
+}
+
+#convert p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#convert form{
+    margin-left: 35%;
+    font-size: 20px;
+}
+
+#convert select{
+    padding: 10px 55px;
+    margin-top: 20px;
+    border: none;
+}
+
+#convert input{
+    padding: 11px 75px;
+    border: none;
+}
+
+#convert button{
+    padding: 11px 75px;
+    border: none;
+    margin-left: 41%;
+    margin-top: 100px;
+}
+
+#log_in{
+    display: none;
+}
+
+#log_in input, #calculater input{
+    padding: 5px 70px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    margin-left: 20px;
+    background-color: rgb(231, 250, 246);
+    color: darkslategrey;
+}
+
+#log_in button{
+    border: none;
+    margin-left: 20px;
+    background-color: rgb(231, 250, 246);
+    padding: 5px 70px;
+    height: 40px;
+    color: darkslategrey;
+}
+
+#calculater #moneyEnter{
+    margin-left: 50px;
+}
+
+#calculater #term, #calculater #result{
+    margin-left: 50px;
+}
+
+.history form{
+    background-color: rgba(61, 0, 29, 0.42);
+    color: #cabdd9;
+}

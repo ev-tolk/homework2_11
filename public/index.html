@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="menu">
+      <button id="main">Главная страница</button>
+      <button id="monExch">Конвертер валют</button>
+      <button id="btn">Войти в банк</button>
+    </div>
+    <div id="bank">
+      <h1>Курс валют на сегодня</h1>
+      <form>
+            
+      </form>
+      <p>Для расчёта ипотеки необходимо войти в банк</p>
+    </div>
+    <div id="convert">
+      <h1>Конвертер валют</h1>
+      <p>Выберите нужные валюты из списка, введите имеющуюся сумму и нажмите enter</p>
+      <form>
+          <div id="before">
+              <select id="money1">
+                  <option value="byn">Белорусский рубль</option>
+                  <option value="usd">Доллар США</option>
+                  <option value="pln">Польский злотый</option>
+                  <option value="uah">Украинская гривна</option>
+              </select>
+              <input type="text" id="inpMoney" placeholder="" value="" >
+          </div>
+          <div id="after">
+              <select id="money2">
+                  <option value="byn">Белорусский рубль</option>
+                  <option value="usd">Доллар США</option>
+                  <option value="pln">Польский злотый</option>
+                  <option value="uah">Украинская гривна</option>
+              </select>
+              <input type="text" id="outpMoney" placeholder="" readonly>
+          </div>
+      </form>
+    </div>
+    <div class="calculater" id="calculater">
+      <h1>Калькулятор ипотеки</h1>
+      <input type="text" id="moneyEnter" placeholder="Введите сумму и нажмите enter" value="">
+      <select name="credits" id="credits">
+        <option value="2">2%</option>
+        <option value="15">15%</option>
+        <option value="30">30%</option>
+      </select>
+      <select name="money_type" id="money_type">
+        <option value="byn">Белорусский рубль</option>
+      </select>
+      <br> <br><input id="term" type="text" placeholder="Срок кредита" value="">
+      <br> <br><input id="result" type="text" placeholder="Итоговая сумма" value="">
+      <div class="history" id="history">
+        <h1>История ваших транзакций</h1>
+        <form>
+
+        </form>
+      </div>
+      <div class="shop">
+        <h2>Покупка валюты</h2>
+        <span>Введите сумму которую хотите купить: </span><input id="money_shop" type="text" placeholder="Сумма" value="">
+      </div>
+    </div>
+    <div id="log_in">
+      <input id="name_in" type="text" placeholder="Введите ваше имя и нажмите enter">
+      <input id="email_in" type="email" placeholder="Введите ваш email и нажмите enter">
+      <input id="password" type="text" placeholder="Введите пароль и нажмите enter">
+      <button id="click_in">Войти</button>
+    </div>
+  </body>
+</html>
